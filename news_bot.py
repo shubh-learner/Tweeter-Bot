@@ -1,9 +1,5 @@
 import requests
 import config
-from bs4 import BeautifulSoup
-import tweepy
-import config
-import json
 import data_file
 # url = ('https://newsapi.org/v2/top-headlines?'
 #        'country=IN&'
