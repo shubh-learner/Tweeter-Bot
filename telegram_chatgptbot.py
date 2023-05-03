@@ -4,7 +4,7 @@ import config
 
 class TelegramChat:
     def __init__(self):
-        self.client = Clients.telegram_client()
+        self.client = Clients().telegram_client()
         self.count = 0
     
     def send_message(self, headline):

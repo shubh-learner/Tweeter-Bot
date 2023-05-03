@@ -1,9 +1,6 @@
-
-from all_clients import Clients
+from telethon.sync import TelegramClient
+from telethon.sessions import StringSession
 import config
-from requests.models import Response
 
-data = Response()
-data = data(data={'edit_history_tweet_ids': ['1653304094054920192'], 'id': '1653304094054920192', 'text': 'Please wait a moment while the chatbot responds to your query . . .'}, includes={}, errors=[], meta={})
-
-print (data)
+with TelegramClient(StringSession(), config.App_api_id, config.App_api_hash) as client:
+    print(client.session.save())

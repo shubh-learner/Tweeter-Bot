@@ -28,5 +28,6 @@ App_api_id = '25426494'
 App_api_hash = 'cf8b82f6f15455c90d4cc09e63f409c3'
 phone_no = '+919989795357'
 chatGpt_username = '@GPT4Telegrambot'
-paraphrase_tweet = 'Paraphrase below text for Tweeter under 280 characters along with emoji : '
+paraphrase_tweet = 'paraphrase below text within 200 characters for tweeter with emoji and tags: '
 
+telegram_string = '1BVtsOKIBuw1adxcr2D-IIKUzlaH_Zi09E236LjuLIQVdwVzZFSQUiKHo1XrNYuv2jldDfA4xp_QIVTaawfPfyvu_QtOwEJHhcoIZYTCx1KNQPKOvxKT_Tx8BZxCZ8NHjp8M1jXnrjE-oGQ2dZoQZJr09UuGe8N224-EoXl7KS9Q2u2BThCAeQH2xaNecgLLIIC0sbQmavk0yKJ4y-BaZ9v0Y7glO9h_IXQwtuvtCA7xBvPBQH5SFRS7D8IsOw2eSMKTJPEOyjUAwMAIHN9ig953xMbIakpbZul95FG-rULR4YkLGc2hIbvPOFoi__hU9kLHb84UpV-IP2Vd2SsVSmdBborr9opA='
