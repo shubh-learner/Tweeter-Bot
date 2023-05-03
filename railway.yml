@@ -1,0 +1,9 @@
+version: '1.0'
+envs:
+  TZ: "Asia/Kolkata"
+
+jobs:
+  run-python-file:
+    image: python:3.9
+    command: python your_file.py
+    schedule: '0 7,10,13,16,19 * * *'
