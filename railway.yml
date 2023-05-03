@@ -4,6 +4,6 @@ envs:
 
 jobs:
   run-python-file:
-    image: python:3.9
-    command: python your_file.py
+    image: python:3.11
+    command: python app.py
     schedule: '0 7,10,13,16,19 * * *'
