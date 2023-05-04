@@ -29,7 +29,7 @@ def main():
         print(f"An error occurred: {e}")
 
 
-schedule.every(5).hour.do(main)
+schedule.every(5).hours.do(main)
 
 if __name__ == "__main__":
     while 1:
