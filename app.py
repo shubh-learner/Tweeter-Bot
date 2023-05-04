@@ -5,6 +5,7 @@ import telegram_chatgptbot
 from tweet_bot import TweetHeadlines
 from telegram_chatgptbot import TelegramChat
 import time
+import schedule
 
 def main():
     try:
@@ -27,5 +28,10 @@ def main():
     except Exception as e:
         print(f"An error occurred: {e}")
 
+
+schedule.every(5).hour.do(main)
+
 if __name__ == "__main__":
-    main()
+    while 1:
+        schedule.run_pending()
+        time.sleep(1800)
