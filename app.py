@@ -19,7 +19,7 @@ def main():
         url = config.NewsIO_apikey+'&country='+config.country+'&language='+random_lan+'&category='+random_category
         
         headline = newsapi.fetch_news(url)
-        print(headline)
+        print("Category: "+random_category+ "Headline: " + headline)
         
         if not headline:
             print("Check News API, No headlines returned")
