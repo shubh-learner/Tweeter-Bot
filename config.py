@@ -19,9 +19,8 @@ News_API_key = 'f71b27922fd7435cbaab41df054ab869'
 # Newsio API
 NewsIO_apikey = 'https://newsdata.io/api/1/news?apikey=pub_21143565fcfde327a8364250ae43440edae75'
 country = 'IN'
-language = 'en'
-category = 'politics'
-url = NewsIO_apikey+'&country='+country+'&language='+language+'&category='+category
+language = ['en', 'hi']
+category = ['entertainment', 'politics', 'sports', 'top', 'world']
 
 # Telegram Keys
 App_api_id = '25426494'
@@ -33,3 +32,5 @@ paraphrase_tweet = 'paraphrase below text within 200 characters for tweeter with
 telegram_string = '1BVtsOKIBuw1adxcr2D-IIKUzlaH_Zi09E236LjuLIQVdwVzZFSQUiKHo1XrNYuv2jldDfA4xp_QIVTaawfPfyvu_QtOwEJHhcoIZYTCx1KNQPKOvxKT_Tx8BZxCZ8NHjp8M1jXnrjE-oGQ2dZoQZJr09UuGe8N224-EoXl7KS9Q2u2BThCAeQH2xaNecgLLIIC0sbQmavk0yKJ4y-BaZ9v0Y7glO9h_IXQwtuvtCA7xBvPBQH5SFRS7D8IsOw2eSMKTJPEOyjUAwMAIHN9ig953xMbIakpbZul95FG-rULR4YkLGc2hIbvPOFoi__hU9kLHb84UpV-IP2Vd2SsVSmdBborr9opA='
 
 # chatGpt_username = '@chatgpt_trailbot'
+
+

@@ -6,6 +6,7 @@ from tweet_bot import TweetHeadlines
 from telegram_chatgptbot import TelegramChat
 import time
 import schedule
+import random
 
 def main():
     try:
@@ -13,7 +14,11 @@ def main():
         tweet_headlines = TweetHeadlines()
         tele_chat = TelegramChat()
         
-        headline = newsapi.fetch_news(config.url)
+        random_category = random.choice(config.category)
+        random_lan = random.choice(config.language)
+        url = config.NewsIO_apikey+'&country='+config.country+'&language='+random_lan+'&category='+random_category
+        
+        headline = newsapi.fetch_news(url)
         print(headline)
         
         if not headline:
