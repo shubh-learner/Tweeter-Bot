@@ -33,12 +33,10 @@ def main():
         print(f"An error occurred: {e}")
 
 
-# schedule.every(5).hours.do(main)
-
-# if __name__ == "__main__":
-#     while 1:
-#         schedule.run_pending()
-#         time.sleep(1800)
+schedule.every(5).hours.do(main)
 
 if __name__ == "__main__":
-    main()
+    while 1:
+        schedule.run_pending()
+        time.sleep(1800)
+
