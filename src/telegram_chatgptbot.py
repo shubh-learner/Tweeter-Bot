@@ -1,5 +1,5 @@
 
-from all_clients import Clients
+from src.all_clients import Clients
 import config
 
 class TelegramChat:

@@ -1,5 +1,6 @@
 import requests
-import test.data_file
+# import test.data_file
+
 # url = ('https://newsapi.org/v2/top-headlines?'
 #        'country=IN&'
 #        'apiKey='+config.News_API_key)
