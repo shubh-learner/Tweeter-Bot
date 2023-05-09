@@ -1,6 +1,5 @@
 import requests
-import config
-import data_file
+import test.data_file
 # url = ('https://newsapi.org/v2/top-headlines?'
 #        'country=IN&'
 #        'apiKey='+config.News_API_key)
@@ -13,7 +12,7 @@ class NewsApi:
     def fetch_news(self, url):
         response = requests.get(url)
         data = response.json()
-        # data = data_file.jsondata
+        # data = test.data_file.jsondata
         headline = ''
         
         for result in data["results"]:

@@ -1,9 +1,8 @@
 import config
 import asyncio
-from news_bot import NewsApi
-import telegram_chatgptbot
-from tweet_bot import TweetHeadlines
-from telegram_chatgptbot import TelegramChat
+from src.news_bot import NewsApi
+from src.tweet_bot import TweetHeadlines
+from src.telegram_chatgptbot import TelegramChat
 import time
 import schedule
 import random
@@ -34,9 +33,12 @@ def main():
         print(f"An error occurred: {e}")
 
 
-schedule.every(5).hours.do(main)
+# schedule.every(5).hours.do(main)
+
+# if __name__ == "__main__":
+#     while 1:
+#         schedule.run_pending()
+#         time.sleep(1800)
 
 if __name__ == "__main__":
-    while 1:
-        schedule.run_pending()
-        time.sleep(1800)
+    main()
